@@ -1,3 +1,3 @@
 # CSharpInDepth
 
-Experts diary for better code
+Experts diary to write better code
