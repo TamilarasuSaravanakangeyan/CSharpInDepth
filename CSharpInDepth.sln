@@ -8,7 +8,17 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2D1D7C2-F898-44EC-A3F9-ACE32571C885}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{A73E9CB3-085A-4A8F-BBB1-E0401B0B019C}"
+	ProjectSection(SolutionItems) = preProject
+		DesignPatterns\README.MD = DesignPatterns\README.MD
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{142F733E-04A4-4AE6-BCDE-6211F21DCA1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "DesignPatterns\Creational\Singleton\Singleton.csproj", "{9D232557-094C-4DD1-8AF2-DC3B240A9DB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +30,17 @@ Global
 		{DAB6E83D-1445-4462-A972-21F64B19C688}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAB6E83D-1445-4462-A972-21F64B19C688}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAB6E83D-1445-4462-A972-21F64B19C688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D232557-094C-4DD1-8AF2-DC3B240A9DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D232557-094C-4DD1-8AF2-DC3B240A9DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D232557-094C-4DD1-8AF2-DC3B240A9DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D232557-094C-4DD1-8AF2-DC3B240A9DB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{142F733E-04A4-4AE6-BCDE-6211F21DCA1A} = {A73E9CB3-085A-4A8F-BBB1-E0401B0B019C}
+		{9D232557-094C-4DD1-8AF2-DC3B240A9DB5} = {142F733E-04A4-4AE6-BCDE-6211F21DCA1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7F414FC-9BA6-4AE9-8294-F05C2EDAF58A}
